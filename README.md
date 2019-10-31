@@ -99,7 +99,7 @@ There are three possible outputs.
 
 ### Exercise 4
 
-Prompt the user to enter three integers. How are the integers ordered?
+Prompt the user to enter three numbers. How are the numbers ordered?
 
 Your code needs to support all numbers in the range [`Number.MIN_SAFE_INTEGER`, `Number.MAX_SAFE_INTEGER`]. Numbers outside of this range and non-numeric values are invalid.
 
