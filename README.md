@@ -281,6 +281,19 @@ There are four possible outputs.
 * Use `const` variables to represent the freezing and boiling points of water for each temperature scale.
 * Your prompt and message must be grammatically correct and match mine **exactly**.
 
+## Deliverables
+
+You can run all of your problem set files in a single shot using the following command. Make sure you're in your `pset-3` directory when you do so.
+```
+./tester.sh
+```
+
+Your code should produce the following output.
+
+<span>
+  <img src="https://github.com/ap-principles-ucvts/pset-3-skeleton/blob/master/images/deliverable-1.png" alt="Problem Set 3 Output" width="49.75%"/> <img src="https://github.com/ap-principles-ucvts/pset-3-skeleton/blob/master/images/deliverable-2.png" alt="Problem Set 3 Output" width="49.75%"/>
+</span>
+
 ## Deadline
 
 Please read very carefully. Historically, most students lose points on problem sets for simply failing to read the instructions and requirements.
@@ -293,7 +306,7 @@ If you submit your problem set at midnight (i.e., November 7, 2019, at 12:00am),
 
 * Your code **must** compile. Code that fails to meet this minimum requirement will not be accepted.
 * There must be **at least** 10 unique commits to your repository.
-* Your code must meet each requirement outlined in the Exercises and Deliverables sections.
+* Your code must meet each requirement outlined in the *Exercises* and *Deliverables* sections.
 * Your code must adhere to the course style guidelines.
 
 Happy coding!
