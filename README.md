@@ -288,13 +288,13 @@ You can run all of your problem set files in a single shot using the following c
 ./tester.sh
 ```
 
-Your code should produce the following output.
+Pay close attention to this output because your code will be graded against it. There is exactly one line break at the beginning and end of the output. THere are exactly two line breaks between exercises.
+
+When you run `./tester.sh` and you enter the same values, your output should match mine exactly.
 
 <span>
   <img src="https://github.com/ap-principles-ucvts/pset-3-skeleton/blob/master/images/deliverable-1.png" alt="Problem Set 3 Output" width="49.75%"/> <img src="https://github.com/ap-principles-ucvts/pset-3-skeleton/blob/master/images/deliverable-2.png" alt="Problem Set 3 Output" width="49.75%"/>
 </span>
-
-Pay close attention to this output because your code will be graded against it. There is exactly one line break at the beginning and end of the output. THere are exactly two line breaks between exercises. When you run `./tester.sh` and you enter the same values, your output should match mine exactly.
 
 ## Deadline
 
