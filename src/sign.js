@@ -1,17 +1,21 @@
-
 const readlineSync= require("readline-sync");
 
-let integer = Number(readlineSync.question("\nEnter an integer: "));
+let number = Number(readlineSync.question("\nEnter a number: "));
 
-if(integer < Number.MIN_SAFE_INTEGER || integer > Number.MAX_SAFE_INTEGER) {
+
+if(number < Number.MIN_SAFE_INTEGER || number > Number.MAX_SAFE_INTEGER) {
     console.log("invalid");
   }
-if Number(integer % 2 === 0) {
-    console.log("\nEven.\n");
-  }
-if Number(integer % 2 !== 0){
-  console.log("\nOdd.\n");
-}
-if(Number.isNaN(integer)){
+
+else if(Number.isNaN(number)){
   console.log("\nInvalid.\n");
+}
+else if(number === 0){
+  console.log("\nZero.\n");
+}
+else if(number>0){
+  console.log("\nPositive.\n");
+}
+else if(number<0){
+  console.log("\nNegative.\n");
 }
