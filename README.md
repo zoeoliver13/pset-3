@@ -154,11 +154,11 @@ There are two possible outputs.
 * `Invalid.`
 
 The grading policy is defined as follows.
-* `90` to `100` constitutes an `A`.
-* `80` to `89` constitutes a `B`.
-* `70` to `79` constitutes a `C`.
-* `60` to `69` constitutes a `D`.
-* `0` to `59` constitutes an `F`.
+* [`90`, `100`] constitutes an `A`.
+* [`80`, `90`) constitutes a `B`.
+* [`70`, `80`) constitutes a `C`.
+* [`60`, `70`) constitutes a `D`.
+* [`0`, `60`) constitutes an `F`.
 
 ![Exercise 6 Output](https://github.com/ap-principles-ucvts/pset-3-skeleton/blob/master/images/grades.png)
 
