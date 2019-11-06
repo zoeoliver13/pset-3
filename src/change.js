@@ -6,10 +6,10 @@ const MAX = 0.99;
 let amount = Number(readlineSync.question("\nEnter a dollar amount: "));
 
 if (Number.isNaN(amount)) {
-    console.log("invalid");
+    console.log("\nInvalid. ");
 }
 else if (amount < MIN || amount > MAX) {
-    console.log("invalid");
+    console.log("\nInvalid. ");
 } else {
     const quarters = Math.floor(amount/.25);
     const remainderQuarters = quarters*.25;
