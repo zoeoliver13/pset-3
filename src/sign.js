@@ -4,7 +4,7 @@ let number = Number(readlineSync.question("\nEnter a number: "));
 
 
 if(number < Number.MIN_SAFE_INTEGER || number > Number.MAX_SAFE_INTEGER) {
-    console.log("invalid");
+    console.log("\nInvalid.\n");
   }
 
 else if(Number.isNaN(number)){
