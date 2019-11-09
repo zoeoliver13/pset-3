@@ -154,11 +154,11 @@ There are two possible outputs.
 * `Invalid.`
 
 The grading policy is defined as follows.
-* `90` to `100` constitutes an `A`.
-* `80` to `89` constitutes a `B`.
-* `70` to `79` constitutes a `C`.
-* `60` to `69` constitutes a `D`.
-* `0` to `59` constitutes an `F`.
+* [`90`, `100`] constitutes an `A`.
+* [`80`, `90`) constitutes a `B`.
+* [`70`, `80`) constitutes a `C`.
+* [`60`, `70`) constitutes a `D`.
+* [`0`, `60`) constitutes an `F`.
 
 ![Exercise 6 Output](https://github.com/ap-principles-ucvts/pset-3-skeleton/blob/master/images/grades.png)
 
@@ -283,14 +283,14 @@ There are four possible outputs.
 
 ## Deliverables
 
-You can run all of your problem set files in a single shot using the following command. Make sure you're in your `pset-3` directory when you do so.
+You can run all of your problem set files in a single shot using the following command. Make sure you're in your `src` directory when you do so.
 ```
-./tester.sh
+node change.js; node sign.js; node parity.js; node sequence.js; node gpa.js; node grades.js; node years.js; node cards.js; node months.js; node temperature.js
 ```
 
 Pay close attention to this output because your code will be graded against it. There is exactly one line break at the beginning and end of the output. THere are exactly two line breaks between exercises.
 
-When you run `./tester.sh` and you enter the same values, your output should match mine exactly.
+When you run the chained command and enter the same values, your output should match mine exactly.
 
 <span>
   <img src="https://github.com/ap-principles-ucvts/pset-3-skeleton/blob/master/images/deliverable-1.png" alt="Problem Set 3 Output" width="49.75%"/> <img src="https://github.com/ap-principles-ucvts/pset-3-skeleton/blob/master/images/deliverable-2.png" alt="Problem Set 3 Output" width="49.75%"/>
