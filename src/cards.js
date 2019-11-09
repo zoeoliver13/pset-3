@@ -1,6 +1,6 @@
 const readlineSync = require("readline-sync");
 
-let cards = readlineSync.question("\nEnter a playing card: \n");
+let cards = readlineSync.question("\nEnter a playing card: ");
 const nameOfCard = cards.toUpperCase();
 
 if (nameOfCard == "AS") {
@@ -26,7 +26,7 @@ else if (nameOfCard == "QD") {
 }else if (nameOfCard == "QS") {
   console.log("\nQueen of Spades.\n");
 }else if (nameOfCard == "QH") {
-  console.log("\nQueen of Hearts\n");
+  console.log("\nQueen of Hearts.\n");
 }else if (nameOfCard == "QC") {
   console.log("\nQueen of Clubs.\n");
 }
@@ -132,5 +132,5 @@ else if (nameOfCard == "2S") {
 }
 
 else {
-  console.log("\nInvalid\n");
+  console.log("\nInvalid.\n");
 }

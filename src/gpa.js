@@ -1,5 +1,6 @@
 const readlineSync = require("readline-sync");
-const letterGrade = String(readlineSync.question("\nEnter a letter grade: "));
+let letterGrade = String(readlineSync.question("\nEnter a letter grade: "));
+letterGrade = letterGrade.toUpperCase();
 
 if(letterGrade == "A"){
   console.log("\nYour GPA is 4.00.\n");
